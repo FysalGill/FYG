@@ -307,6 +307,22 @@ details p { margin: 0 0 18px; color: var(--muted); }
   </div>
 </main>
 
+<style>
+/* Header logo now matches the footer wordmark */
+header .logo{
+  font-family:"Playfair Display",Georgia,serif;
+  font-weight:700;
+  font-size:1.6rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--accent,#b4453a);
+  line-height:1;
+  text-decoration:none;
+}
+header .logo:hover{opacity:.75}
+@media (max-width:640px){header .logo{font-size:1.3rem;letter-spacing:.1em}}
+</style>
+
 <footer><div class="wrap">
   <div class="big-name" data-shop="name">FYG</div>
   <nav class="foot-links" aria-label="Footer"><a href="index.html">Home</a><a href="collection.html">Collection</a><a href="story.html">Our story</a><a href="delivery.html">Delivery</a><a href="contact.html">Contact</a></nav>
